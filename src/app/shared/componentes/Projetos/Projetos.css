@@ -61,7 +61,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     top: 10px;
-    transform: translateX(-8rem);
+    transform: translateY(8rem);
     visibility: hidden;
     opacity: 0;
     transition: all ease .3s;
@@ -136,4 +136,18 @@ margin-top: 1rem;
 .frameworks .bootstrap{
     border: solid 5px rgb(87, 27, 184);
     color: rgb(87, 27, 184);
+}
+
+@media (min-width: 1000px) {
+    .projetos-card img{
+        width: 100%;
+        border-radius: 20px;
+        transition: all ease .3s;
+    }
+
+    .container-projeto{
+        margin-top: 8rem;
+        width: 100%;
+    }
+
 }

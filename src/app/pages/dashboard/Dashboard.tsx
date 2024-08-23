@@ -3,10 +3,11 @@ import Provider from '../../shared/contexts/Provider'
 import { motion, useScroll } from 'framer-motion'
 
 import './Dashboard.css'
-import icon1 from '../../../../public/assets/portfolio/icon (1).svg'
+
 import Carousel from '../../shared/componentes/Carousel/Carousel'
 import Projetos from '../../shared/componentes/Projetos/Projetos'
 import Nav from '../../shared/componentes/Nav/Nav'
+import Footer from '../../shared/componentes/Footer/Footer'
 
 
 //aqui é uma pagina
@@ -93,17 +94,21 @@ const { scrollYProgress } = useScroll();
             <Nav />
 
         <section className="portfolio">
-            <div className="fundo"><img src="./assets/portfolio/primeiro.png" alt="" /></div>
+            <div className="fundo">
+                <img className='mobille' src="./assets/portfolio/primeiro.png" alt="" />
+                <img className='desktop' src="./assets/portfolio/primeiro-desk.png" alt="" />
+            </div>
 
             <motion.div 
-            className="interface ladding"
+            className="interface ladding" id='home'
             initial={{x: -350, opacity: 0 }}
             animate={{x: 0, opacity: 1 }}
             transition={{ ease: "easeOut", duration: 1.2 }}
             >
-                <h1>Desenvolvedor <span>Front End</span></h1>
-                <p>Sou programador focado em criar soluções eficientes e inovadoras. Sempre em busca de aprimorar minhas habilidades e explorar novas tecnologias.</p>
+                <h1>Desenvolvedor <br /> <span>Front End</span></h1>
+                <p className='mobille'>Sou programador focado em criar soluções eficientes e inovadoras. Sempre em busca de aprimorar minhas habilidades e explorar novas tecnologias.</p>
            
+                <p className="desktop">Olá, sou Derek, um desenvolvedor apaixonado por criar soluções eficientes e elegantes através da programação. Com experiência sólida em React, TypeScript, JavaScript, CSS, SASS e Python, estou comprometido em transformar ideias em realidades digitais inovadoras e funcionais.</p>
                 <img src="./assets/portfolio/eu.png" alt="" />
             </motion.div>
 
@@ -113,9 +118,12 @@ const { scrollYProgress } = useScroll();
 
             
         <section className='sobre-min'>
-            <div className="fundo1"><img src="./assets/portfolio/habilidades.png"  alt="" /></div>
+            <div className="fundo1">
+                <img className='mobille' src="./assets/portfolio/habilidades.png"  alt="" />
+                <img src="./assets/portfolio/segundo.png" alt="" className="desktop" />
+            </div>
 
-            <div className="flex1 interface">
+            <div className="flex1 interface interface-desk">
 
                 <motion.h1
                 initial={{ opacity: 0, scale: .5 }}
@@ -164,26 +172,38 @@ const { scrollYProgress } = useScroll();
         </section>
 
         <section className="projetos">
-            <div className="fundo3"><img className='mundo' src="./assets/portfolio/fundo-mundo.png" alt="" /></div>
+            <div className="fundo3">
+                <img className='mundo mobille' src="./assets/portfolio/fundo-mundo.png" alt="" />
+            </div>
 
             <div className="interface conteudo">
-                <h1>PROJETOS</h1>
+                <h1 id='projet'>PROJETOS</h1>
                 <div className="ponto"></div>
                 <p>Cada projeto apresentado aqui reflete minha paixão por tecnologia e minha busca contínua por inovação. Desde a concepção até a implementação, dedico-me a criar soluções que são funcionais, escaláveis e visualmente atraentes.</p>
             </div>
 
+            <div className='alinhar' >
             {
                 projetosArray.map((data) => <Projetos img={data.img} title={data.title} descricao={data.descricao} frameworks={data.frameworks} link={data.link} github={data.github} flex={data.flex}/>)
             }
+
+            </div>
+
+
             
-        </section>
+        <footer  id='contact'>
 
-
-        </section>
-
-        <footer>
+        <Footer />
 
         </footer>
+                    
+        </section>
+
+
+
+
+        </section>
+
         </Provider> 
     )
 

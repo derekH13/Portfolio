@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +15,8 @@
     overflow: hidden;
     height: min-content;
 }
+
+
 
 body{
     overflow-x: hidden; /* Impede a rolagem horizontal */
@@ -193,16 +199,204 @@ color: #af371e;
 
 
 @media (max-width:376px) {
+    .desktop{
+        display: none;
+    }
+
     .fundo img{
         width: 106%;
         height: 100vh;
     }
+}
+
+
+@media (max-width:375px) {
 
     .ladding img{
-        position: absolute;
-        width: 70%;
-        bottom: 0;
-        margin-left: 4rem;
-       
+       margin-left: 3rem;
+       width: 70%;
     }
+}
+
+
+@media (max-width:999px) {
+
+.desktop{
+    display: none;
+}
+
+footer{
+    height: 50vh;
+    background-color: #af371e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: inset 0px 10px 80px 10px rgba(0, 0, 0, 0.425);
+}
+}
+
+
+
+@media (min-width:1000px) {
+
+
+.mobille{
+    display: none;
+}
+
+.ladding img{
+    position: absolute;
+    width: 30rem;
+    bottom: 0;
+    right: -5rem;
+   
+}
+
+.fundo{
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+
+}
+
+.fundo img{
+    width: 100%;
+    height: 100vh;
+    opacity: .98;
+}
+
+
+.ladding{
+    text-align: left;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ladding h1{
+    padding-top: 12rem;
+    padding-left: 0rem;
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(231, 231, 231);
+    line-height: 95px;
+}
+
+.ladding h1 span{
+color: #af371e;
+}
+
+.ladding p{
+    padding-top: 3rem;
+    padding-left: 0rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 55%;
+    line-height: 35px;
+}
+
+.flex1 h1{
+    padding-top: 8.5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(231, 231, 231);
+    line-height: 90px;
+    width: 100%;
+
+}
+
+
+.flex1 .lamp{
+    height: 20rem;
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    transform: translateX(2.5rem)
+}
+
+.interface{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.opcoes-habilidades{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    color: rgb(231, 231, 231);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    width: 38%;
+}
+
+.habilidades-active h4{
+    color: rgb(231, 231, 231);
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.icon img{
+    height: 60px;
+    margin-right: 1.5rem;
+}
+
+/* =========== projetos ============ */
+
+.conteudo h1{
+    padding-top: 7rem;
+    color:#af371e;
+    font-size: 4rem;
+}
+.ponto{
+    margin-top: 2rem;
+}
+.conteudo p{
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    font-weight: 300;
+    padding-bottom: 12rem;
+}
+
+.fundo3 img{
+    width: 100%;
+    opacity: 0.6;
+    box-shadow: 10px 10px 200px 100px  #0f222c;
+}
+
+.projetos{
+    background-color: #0B1B23;
+    z-index: -8;
+    position: absolute;
+   
+}
+
+.alinhar{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conteudo p{
+    color: white;
+    padding-top: 1rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+    line-height: 40px;
+}
+
+footer{
+    height: 40vh;
+    background-color: #af371e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 }
