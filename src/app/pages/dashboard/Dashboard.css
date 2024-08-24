@@ -390,12 +390,17 @@ color: #af371e;
     line-height: 40px;
 }
 
+
 footer{
-    height: 40vh;
+    height: 50vh;
     background-color: #af371e;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 8rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: inset 0px 10px 80px 10px rgba(0, 0, 0, 0.425);
 }
 
 

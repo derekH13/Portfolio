@@ -26,7 +26,7 @@ const projetosArray = [
     {
         img: './assets/portfolio/projetos/batman typescript.png',
         title: 'CATALOGO DE FILMES',
-        descricao: 'Esse projeto é uma aplicação usando a PokeAPI, e foi uma excelente oportunidade para treinar o que aprendi recentemente. Como ainda estou ganhando experiência em React, decidi utilizar alguns hooks que acabei de aprender. Provavelmente não foram as melhores escolhas, mas foi uma ótima forma de colocar a mão na massa e aprender na prática .',
+        descricao: 'Reescrevi um antigo projeto de catálogo de filmes usando TypeScript. Adicionei funcionalidades como busca por gêneros, a opção de marcar filmes como favoritos e modernizei o design. Essa atualização também me permitiu aprofundar meus conhecimentos em TypeScript e práticas de desenvolvimento moderno. 🚀',
         frameworks: ['react', 'javascript', 'css', 'bootstrap', 'typescript'],
         link: 'https://derekh13.github.io/new-Catalogo/',
         github: 'https://github.com/derekH13/new-Catalogo',
@@ -35,7 +35,7 @@ const projetosArray = [
     {
         img: './assets/portfolio/projetos/market-react.png',
         title: 'LOJA VIRTUAL',
-        descricao: 'Esse projeto é uma aplicação usando a PokeAPI, e foi uma excelente oportunidade para treinar o que aprendi recentemente. Como ainda estou ganhando experiência em React, decidi utilizar alguns hooks que acabei de aprender. Provavelmente não foram as melhores escolhas, mas foi uma ótima forma de colocar a mão na massa e aprender na prática .',
+        descricao: 'Foi desenvolvido um projeto em React que utiliza a API do Mercado Livre para permitir a pesquisa de produtos. A aplicação exibe os resultados com informações como nome, preço e imagem, e inclui uma funcionalidade de carrinho de compras para visualizar itens selecionados.',
         frameworks: ['react', 'javascript', 'css', 'bootstrap', 'html'],
         link: 'https://react-marcket.vercel.app/pagina-inicial',
         github: 'https://github.com/derekH13/React-Market',
@@ -44,7 +44,7 @@ const projetosArray = [
     {
         img: './assets/portfolio/projetos/nike.png',
         title: 'TÊNIS DA NIKE',
-        descricao: 'Esse projeto é uma aplicação usando a PokeAPI, e foi uma excelente oportunidade para treinar o que aprendi recentemente. Como ainda estou ganhando experiência em React, decidi utilizar alguns hooks que acabei de aprender. Provavelmente não foram as melhores escolhas, mas foi uma ótima forma de colocar a mão na massa e aprender na prática .',
+        descricao: 'Meu primeiro projeto criado do zero. Enfrentei diversos desafios que destacaram áreas para crescimento e aprendizado, e cada obstáculo foi uma oportunidade para buscar soluções criativas e aprimorar minhas habilidades.',
         frameworks: ['javascript', 'css', 'typescript', 'html', 'tailwindcss'],
         link: 'https://derekh13.github.io/Loja-Nike/',
         github: 'https://github.com/derekH13/Loja-Nike',
@@ -53,7 +53,7 @@ const projetosArray = [
     {
         img: './assets/portfolio/projetos/PokeRpg2.png',
         title: 'POKERPG',
-        descricao: 'Esse projeto é uma aplicação usando a PokeAPI, decidi utilizar alguns hooks que tinha recem aprendido. Provavelmente não foram as melhores escolhas, mas foi uma ótima forma de colocar a mão na massa e aprender na prática.',
+        descricao: 'Estou desenvolvendo um jogo de RPG por turnos usando a API de Pokémon, React e TypeScript. Após trabalhar em sites, decidi criar um jogo para explorar novas tecnologias e desafiar minha criatividade. Pois exige pensar de maneira inovadora e resolver problemas de novas formas.',
         frameworks: ['react', 'javascript', 'css', 'typescript', 'tailwindcss', 'html'],
         link: 'https://my-pokeapi-react.vercel.app/pagina-inicial',
         github: 'https://github.com/derekH13/my-rpg',
@@ -62,7 +62,7 @@ const projetosArray = [
     {
         img: './assets/portfolio/projetos/Twitter post - 4 - Copia.png',
         title: 'JOGO DA COBRINHA',
-        descricao: 'Esse projeto é uma aplicação usando a PokeAPI, e foi uma excelente oportunidade para treinar o que aprendi recentemente. Como ainda estou ganhando experiência em React, decidi utilizar alguns hooks que acabei de aprender. Provavelmente não foram as melhores escolhas, mas foi uma ótima forma de colocar a mão na massa e aprender na prática .',
+        descricao: 'Desenvolvi um jogo da cobrinha em JavaScript. O projeto envolveu trabalhar com eventos, implementar lógica de jogo, gerenciar o estado, detectar colisões e otimizar o desempenho.',
         frameworks: ['javascript', 'html', 'css', 'typescript', 'bootstrap'],
         link: 'https://derekh13.github.io/jogo-cobrinha/',
         github: 'https://github.com/derekH13/cobrinha.ts',
@@ -71,7 +71,7 @@ const projetosArray = [
     {
         img: './assets/portfolio/projetos/todolist 3.png',
         title: 'TODO LIST',
-        descricao: 'Esse projeto é uma aplicação usando a PokeAPI, e foi uma excelente oportunidade para treinar o que aprendi recentemente. Como ainda estou ganhando experiência em React, decidi utilizar alguns hooks que acabei de aprender. Provavelmente não foram as melhores escolhas, mas foi uma ótima forma de colocar a mão na massa e aprender na prática .',
+        descricao: 'Criei este projeto de lista de tarefas (todolist), usei eventos com os quais ainda não tinha familiaridade, como o draggable. Infelizmente, o site não funciona bem em dispositivos móveis devido aos eventos que utilizei.',
         frameworks: ['javascript', 'css', 'typescript', 'tailwindcss', 'html'],
         link: 'https://derekh13.github.io/meu-todoList/index.html',
         github: 'https://github.com/derekH13/meu-todoList',
